@@ -37,3 +37,5 @@ export interface MindMapNode {
     fileName?: string;
     watermark?: ExportOptions['watermark'];
   }
+  // src/types/index.ts
+  export type TabType = 'ask' | 'pdf' | 'text' | 'website' | 'youtube' | 'image' | 'audio';
